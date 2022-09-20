@@ -6,7 +6,7 @@
     <button mat-button routerLink="/cursos">Cursos</button>
     <button mat-button *ngIf="!isAuthenticated" routerLink="/login"> Login </button>
     <button mat-button *ngIf="isAuthenticated" (click)="signOut()"> Logout </button>
-    <mat-icon>search</mat-icon>
+    <mat-icon class="search-icon">search</mat-icon>
     <app-search></app-search>
   </div>
   <button mat-button [mat-menu-trigger-for]="menu" fxHide="false" fxHide.gt-sm>
@@ -20,7 +20,7 @@
   <button mat-menu-item *ngIf="!isAuthenticated" routerLink="/login"> Login </button>
   <button mat-menu-item *ngIf="isAuthenticated" (click)="signOut()"> Logout </button>
 </mat-menu>
-<!-- 
+<!--
 <mat-menu x-position="before" #menu="matMenu">
   <button mat-menu-item routerLink="/"><mat-icon>home</mat-icon> Home</button>
   <button mat-menu-item routerLink="/products">Products</button>
