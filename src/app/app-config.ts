@@ -1,11 +1,11 @@
 
 
 
-export default{
+export default {
   oidc: {
     clientId: '0oa6fawe2p6XqcAI15d7',
     issuer: 'https://dev-62087076.okta.com/oauth2/default',
-    redirectUri: 'https://spa-dev-class.vercel.app/login/callback',
+    redirectUri: 'https://devclass.vercel.app/login/callback',
     scopes: ["openid", "profile", "email"],
     testing: {
       disableHttpsCheck: true,
