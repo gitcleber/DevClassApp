@@ -28,9 +28,9 @@ export class LoginComponent implements OnInit {
     features: {
       registration: true,
     },
-    // colors: {
-    //   brand: '#008000'
-    // },
+    colors: {
+      brand: '#673AB7' //'#008000'
+    },
     i18n: {
       en: {
         'primaryauth.title': 'Sign in to Dev Class App',
