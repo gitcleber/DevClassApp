@@ -1,7 +1,7 @@
 # DevClassApp
 
 # CRUD-angular-node-Okta SignIn Widget
-## CRUD de produtos desenvolvido em angular no frontend, com node no backend em conjunto com o widget da OKTA identity provendo autorização e autenticação
+### CRUD de produtos desenvolvido em angular no frontend, com node no backend em conjunto com o OKTA identity provendo autorização e autenticação
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 
